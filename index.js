@@ -154,7 +154,7 @@ async function TheCybers () {
 
             const pushname = info.pushName ? info.pushName : ''
 
-            const messagesC = pes.slice(0).trim().split(/ +/).shift().toLowerCase()
+           // const messagesC = pes.slice(0).trim().split(/ +/).shift().toLowerCase()
 
             const isCmd = body.startsWith(prefix);
 
